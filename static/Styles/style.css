@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body {
+    font-family: Raleway, serif;
+    background: linear-gradient(90deg, #ff0000 0%, #000000 100%);
+}
+p {
+    color: #00ff9d;
+}
+.navbar-brand {
+    color: orange;
+}
+.nav-link {
+    color: #00ff9d;
+}
+.navbar-brand img {
+    width: 40px;
+}
+.navbar-nav .nav-link.active {
+    color: #ffa600;
+}
+.nav-right>p {
+    color: #353535;
+    text-decoration: none;
+    background: linear-gradient(270deg, #00ff9d 0%, #ffa600 100%);
+}
+.card {
+    background: linear-gradient(270deg, #00ff9d 0%, #ffa600 100%);
+}
+.card a {
+    text-decoration: none;
+    color: #353535;
+}
+.slide-text {
+    color: #00ff9d;
+    margin: auto auto;
+}
+.fufloshmerc {
+    color: #353535;
+    margin: auto auto;
+}
+footer,
+.btn-outline-primary {
+    background: linear-gradient(270deg, #00ff9d 0%, #ffa600 100%);
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Phone-anime:hover {
+    animation: Phone 2s ease 1s infinite normal forwards;
+}
+@keyframes Phone {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 750px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
